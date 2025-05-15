@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCare Solutions</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background-color: #333;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      display: inline-block;
+    }
+    nav ul li a:hover {
+      background-color: #555;
+    }
+    section.hero {
+      background: url('https://source.unsplash.com/1600x600/?technology,computers') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+      font-size: 2.5rem;
+      text-align: center;
+      padding: 20px;
+    }
+    section.services {
+      padding: 40px;
+      background-color: white;
+      text-align: center;
+    }
+    .service-box {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .service {
+      flex: 1 1 300px;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fafafa;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+    @media (max-width: 768px) {
+      .service-box {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TechCare Solutions</h1>
+    <p>Your Trusted Partner for Laptops, Computers & CCTV Services</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+    Reliable Solutions for All Your Tech Needs
+  </section>
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <div class="service">
+        <h3>Laptop Repair</h3>
+        <p>From screen replacements to motherboard issues, we handle all laptop problems efficiently.</p>
+      </div>
+      <div class="service">
+        <h3>Computer Setup & Maintenance</h3>
+        <p>Whether it’s assembling desktops or optimizing performance, our team has got you covered.</p>
+      </div>
+      <div class="service">
+        <h3>CCTV Installation</h3>
+        <p>Secure your premises with advanced CCTV installation, setup, and maintenance solutions.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 TechCare Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
